@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <div class="logo-circle">
+                    <span>ANK</span>
+                </div>
+                Adwaith Nilajen
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Me</a></li>
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="btn btn-sm btn-outline-light">🌙 Night Mode</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero d-flex align-items-center text-white">
+        <div class="container text-center" data-aos="fade-up">
+            <h1>Hello, I'm <span>Adwaith Nilajen</span></h1>
+            <p>Full Stack Developer | UI/UX Designer</p>
+            <a href="#projects" class="btn btn-warning">View My Work</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6" data-aos="fade-right">
+                    <img src="./images/ANK_2.jpg" alt="About Image" class="img-fluid rounded-circle">
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <h2>About Me</h2>
+                    <p>I am a Full Stack Developer passionate about creating dynamic web applications and staying up to date with the latest in web development trends. I love crafting beautiful user interfaces and writing clean, efficient code.</p>
+                    <h3>Skills</h3>
+                    <div class="d-flex flex-wrap gap-2">
+                        <span class="badge bg-primary">HTML</span>
+                        <span class="badge bg-secondary">CSS</span>
+                        <span class="badge bg-success">Bootstrap</span>
+                        <span class="badge bg-danger">JavaScript</span>
+                        <span class="badge bg-info">Figma</span>
+                        <span class="badge bg-warning">MySQL</span>
+                        <span class="badge bg-dark">React</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5 bg-light">
+        <div class="container text-center">
+            <h2 data-aos="fade-up">My Services</h2>
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3>Web Development</h3>
+                            <p>Building responsive and visually appealing websites tailored to your needs. With expertise in HTML, CSS (including media queries), Bootstrap, Tailwind CSS, and JavaScript, I create dynamic and interactive websites. My experience includes developing a portfolio website, a responsive cafe website (frontend), and a restaurant online food ordering and reservation website (frontend), ensuring a seamless and user-friendly experience across all devices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h3>UI/UX Design</h3>
+                            <p>Creating user-friendly interfaces with a focus on seamless user experience. I specialize in designing intuitive and visually appealing user interfaces, ensuring an optimal experience across all platforms. Currently, I'm enhancing my skills in UI/UX design using Figma to bring creative ideas to life while prioritizing user-centered design principles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+<section id="projects" class="projects py-5">
+    <div class="container text-center">
+        <h2 data-aos="fade-up">My Projects</h2>
+        <div class="row">
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3>Serenity Forest Website UI</h3>
+                        <p>This website invites users on a calming adventure through beautiful forest imagery, enhanced by interactive animations and smooth scrolling...</p>
+                        <a href="https://github.com/AdwaithNilajen/parallax-website" target="_blank" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3>E-Commerce Website UI</h3>
+                        <p>Developed an e-commerce web application UI with features such as a visually appealing hero section, dynamic product cards...</p>
+                        <a href="https://github.com/AdwaithNilajen/e-commerce-gadget-website" target="_blank" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3>Restaurant Website UI</h3>
+                        <p>A modern, responsive website for a fictional Asian noodle restaurant that showcases a vibrant menu...</p>
+                        <a href="https://github.com/AdwaithNilajen/Restaurant-Website" target="_blank" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3>Netflix Clone (Frontend)</h3>
+                        <p>Developed a responsive Netflix clone using HTML, CSS (Bootstrap), and JavaScript...</p>
+                        <a href="https://github.com/AdwaithNilajen/Netflix-Clone-Website" target="_blank" class="btn btn-primary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center" data-aos="fade-up">Contact Me</h2>
+            <form id="contact-form" class="row g-3" data-aos="fade-up">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="first-name" placeholder="First Name" required>
+                </div>
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="last-name" placeholder="Last Name" required>
+                </div>
+                <div class="col-12">
+                    <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                </div>
+                <div class="col-12">
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+                </div>
+                <div class="col-12">
+                    <textarea id="message" class="form-control" placeholder="Message" rows="5" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </div>
+            </form>
+            <div class="social-links text-center mt-4">
+                <a href="https://www.linkedin.com/in/adwaith-nilajen/" class="text-primary mx-2"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="#" class="text-danger mx-2"><i class="fa-brands fa-instagram fa-2x"></i></a>
+                <a href="https://github.com/AdwaithNilajen" class="text-dark mx-2"><i class="fa-brands fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-3 bg-dark text-center text-white">
+        <p>&copy; 2024 All rights reserved by Adwaith Nilajen.</p>
+    </footer>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="./script.js"></script>
+<script>AOS.init()</script>
+</html>
